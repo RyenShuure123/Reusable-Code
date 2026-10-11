@@ -1,0 +1,23 @@
+{
+  "version": 6,
+  "configurePresets": [
+    {
+      "name": "g3519-debug",
+      "displayName": "MSPM0G3519 Debug",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/g3519-debug",
+      "toolchainFile": "${sourceDir}/cmake/toolchain-arm-none-eabi.cmake",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_MAKE_PROGRAM": "D:/Apps/CLion 2025.3.3/bin/ninja/win/x64/ninja.exe",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "g3519-debug",
+      "configurePreset": "g3519-debug"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "version": 6,
+  "configurePresets": [
+    {
+      "name": "g3507",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/g3507",
+      "toolchainFile": "${sourceDir}/cmake/toolchain-arm-none-eabi.cmake",
+      "cacheVariables": {
+        "CMAKE_MAKE_PROGRAM": "D:/Apps/CLion 2025.3.3/bin/ninja/win/x64/ninja.exe"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "g3507",
+      "configurePreset": "g3507"
+    }
+  ]
+}
