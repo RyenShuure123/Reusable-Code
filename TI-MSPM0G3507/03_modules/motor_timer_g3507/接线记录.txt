@@ -1,0 +1,16 @@
+驱动板信号	MSPM0G3507 引脚	外设
+左 IN1	PA0	TIMA0 CCP0
+左 IN2	PA1	TIMA0 CCP1
+右 IN1	PA17	TIMG7 CCP0
+右 IN2	PA24	TIMG7 CCP1
+驱动板 GND	MSPM0 GND	必须共地
+
+
+编码器信号	MSPM0G3507 引脚	方案
+左编码器 A 相	PA21	TIMG8 CCP0，硬件 QEI
+左编码器 B 相	PA22	TIMG8 CCP1，硬件 QEI
+右编码器 A 相	PA23	GPIO 中断，软件正交解码
+右编码器 B 相	PB19	GPIO 中断，软件正交解码
+
+
+
